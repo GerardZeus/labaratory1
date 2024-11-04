@@ -2,11 +2,9 @@
 
 namespace regist {
 
-    // Получаем текущее веремя
-    std::string getCurrentTime();
+    std::string getTime(); // Получаем текущее веремя в виде строки
 
-    // Записываем время запуска в файл
-    void logLaunch(const std::string& filename);
+    void logLaunch(const std::string& filename); // Записываем время запуска в файл
 
 }
 
